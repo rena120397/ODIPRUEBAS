@@ -1,0 +1,68 @@
+[
+  {
+    "name": "error",
+    "path": "/error",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\error.vue",
+    "chunkName": "pages/error"
+  },
+  {
+    "name": "generar-token",
+    "path": "/generar-token",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\generar-token.vue",
+    "chunkName": "pages/generar-token"
+  },
+  {
+    "name": "loading-update",
+    "path": "/loading-update",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\loading-update.vue",
+    "chunkName": "pages/loading-update"
+  },
+  {
+    "name": "logout",
+    "path": "/logout",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\logout.vue",
+    "chunkName": "pages/logout"
+  },
+  {
+    "name": "mantenimiento",
+    "path": "/mantenimiento",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\mantenimiento.vue",
+    "chunkName": "pages/mantenimiento"
+  },
+  {
+    "name": "mensaje-ibk",
+    "path": "/mensaje-ibk",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\mensaje-ibk.vue",
+    "chunkName": "pages/mensaje-ibk"
+  },
+  {
+    "name": "perfil-usuario",
+    "path": "/perfil-usuario",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\perfil-usuario.vue",
+    "chunkName": "pages/perfil-usuario"
+  },
+  {
+    "name": "perfil-usuario-update",
+    "path": "/perfil-usuario-update",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\perfil-usuario-update.vue",
+    "chunkName": "pages/perfil-usuario-update"
+  },
+  {
+    "name": "perfilador",
+    "path": "/perfilador",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\perfilador.vue",
+    "chunkName": "pages/perfilador"
+  },
+  {
+    "name": "validar-identidad",
+    "path": "/validar-identidad",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\validar-identidad.vue",
+    "chunkName": "pages/validar-identidad"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

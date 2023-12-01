@@ -1,0 +1,135 @@
+.bg-white {
+  background-color: #ffffff;
+}
+.bg_sab {
+  background-color: $color-primarioSab;
+}
+.bg_certia {
+  background-color: $color-primarioCertia;
+}
+.color_sab {
+  color: $color-primarioSab !important;
+}
+.color_certia {
+  color: $color-primarioCertia !important;
+}
+.color-grey {
+  color: #8d8e90;
+}
+.text-white {
+  color: #ffffff !important;
+}
+.p-titulo {
+  font-size: 40px;
+  font-weight: bold;
+}
+.p-titulo-bold {
+  font-size: 24px;
+  font-weight: bold;
+}
+.p-titulo-36b {
+  font-size: 36px;
+  font-weight: bold;
+}
+.p-titulo-36n {
+  font-size: 36px;
+}
+// input {
+//   padding: 15px;
+// }
+.ipt-registrate, .input-profile {
+  font-size: 15px !important;
+  line-height: 18px;
+  height: 39px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #a5a8b5;  
+  .v-input__control {
+    min-height: auto !important;
+  }
+  .v-input__control > .v-input__slot {
+    background: transparent !important;
+  }
+}
+.v-text-field input
+.custom-checkbox .custom-control-label::before {
+  border-radius: 0px !important;
+}
+.cnt-ipt__registrate {
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+.cnt-ipt__registrate .btn-registrarse{
+  height: 66px;
+  box-shadow: none;
+}
+.btn-registrarse{
+  width: 341px;
+  border: none;
+}
+.custom-control-label::before {
+  background: #f2efeb;
+  border: 1px solid #333333;
+}
+.moneda-l {
+  height: 40px;
+  width: 40px;
+  background: $color-primario2;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 6px 9px;
+  color: #ffffff;
+  position: absolute;
+  left: 5%;
+  top: 35px;
+}
+.fade {
+  transition: none !important;
+}
+.border-primario {
+  background-color: transparent;
+  border: 1px solid $color-primario1;
+  color: $color-primario1;
+  width: 100%;
+  height: 66px;
+  margin: 0 auto;
+}
+.border-white {
+  border: 1px solid white;
+  color: white !important;
+  background-color: transparent;
+}
+.modal-verificar-correo {
+  .v-text-field.v-text-field--solo .v-input__control input,
+  .v-text-field.v-text-field--solo .v-label,
+  .v-messages__message,
+  .theme--light.v-select .v-select__selection--comma,
+  .v-icon.v-icon,
+  .theme--light.v-label {
+    color: white;
+  }
+}
+.mt-30 {
+  margin-top: -30px;
+  padding: 20px 0px 0px 0px !important;
+}
+
+@media (max-width: 959px) {
+  .p-titulo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .p-titulo-bold {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .p-titulo-normal {
+    font-size: 14px;
+  }
+  .p-titulo-36b {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .p-titulo-36n {
+    font-size: 18px;
+  }
+}

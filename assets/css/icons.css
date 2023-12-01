@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?qdv6a0');
+  src:  url('../fonts/icomoon.eot?qdv6a0#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?qdv6a0') format('truetype'),
+    url('../fonts/icomoon.woff?qdv6a0') format('woff'),
+    url('../fonts/icomoon.svg?qdv6a0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e92a";
+}
+.icon-alert_triagulo.path1:before {
+  content: "\e900";
+  color: rgb(192, 134, 22);
+}
+.icon-alert_triagulo.path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(192, 134, 22);
+}
+.icon-alert_triagulo .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-alert_triagulo .path4:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-alert_triagulo .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-basurero:before {
+  content: "\e905";
+}
+.icon-bell:before {
+  content: "\e906";
+}
+.icon-buscar:before {
+  content: "\e907";
+}
+.icon-calendario:before {
+  content: "\e908";
+}
+.icon-camara:before {
+  content: "\e909";
+}
+.icon-candado:before {
+  content: "\e90a";
+}
+.icon-cerrar:before {
+  content: "\e90b";
+}
+.icon-cerrar-sesion:before {
+  content: "\e90c";
+}
+.icon-check:before {
+  content: "\e90d";
+  color: #f2477d;
+}
+.icon-pdf:before {
+  content: "\e90e";
+}
+.icon-dolar:before {
+  content: "\e90f";
+}
+.icon-dolar-fondo:before {
+  content: "\e910";
+}
+.icon-error-fondo .path1:before {
+  content: "\e911";
+  color: rgb(218, 67, 44);
+}
+.icon-error-fondo .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-flecha:before {
+  content: "\e913";
+}
+.icon-heart:before {
+  content: "\e914";
+}
+.icon-instagram:before {
+  content: "\e915";
+}
+.icon-lapiz:before {
+  content: "\e916";
+}
+.icon-mano-up:before {
+  content: "\e917";
+}
+.icon-mas:before {
+  content: "\e918";
+}
+.icon-menos:before {
+  content: "\e919";
+}
+.icon-off:before {
+  content: "\e91a";
+}
+.icon-ok-fondo .path1:before {
+  content: "\e91b";
+  color: rgb(3, 150, 68);
+}
+.icon-ok-fondo .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-portafolio-up:before {
+  content: "\e91d";
+}
+.icon-pregunta:before {
+  content: "\e91e";
+}
+.icon-pregunta-fondo:before {
+  content: "\e91f";
+}
+.icon-rentab-down:before {
+  content: "\e920";
+}
+.icon-rentab-up:before {
+  content: "\e921";
+}
+.icon-rs1:before {
+  content: "\e922";
+}
+.icon-rs2:before {
+  content: "\e923";
+}
+.icon-rs3:before {
+  content: "\e924";
+}
+.icon-rs4:before {
+  content: "\e925";
+}
+.icon-soles:before {
+  content: "\e926";
+}
+.icon-tarjeta:before {
+  content: "\e927";
+}
+.icon-tarjeta2:before {
+  content: "\e928";
+}
+.icon-user:before {
+  content: "\e929";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-clock2:before {
+  content: "\e94f";
+}

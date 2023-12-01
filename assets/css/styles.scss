@@ -1,0 +1,616 @@
+@import "color";
+@import "components";
+
+// @font-face {
+//   font-family: 'DMsans';
+//   src:  
+//           url('../fonts/DMSans-Regular.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// * {
+//   font-family: DMsans;
+// }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+.contenedor {
+  width: 100%;
+  height: 100%;
+}
+.form-cuentas .theme--light.v-label {
+  color: inherit !important;
+}
+/**NAV**/
+.v-toolbar {
+  box-shadow: none !important;
+}
+.position-relativr {
+  position: relative;
+}
+.inline-block {
+  display: inline-block !important;
+}
+.z-index-9 {
+  z-index: 4;
+}
+.btn-ingresar {
+  border-radius: 6px;
+  width: 150px;
+  height: 40px;
+  line-height: 20px;
+}
+.v-btn, .v-input {
+  border-radius: 0px !important;
+}
+.v-application--wrap {
+  overflow: hidden;
+}
+.img-mi-perfil {
+  height: 60px;
+}
+/****/
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+  box-shadow: none !important;
+}
+/*********/
+
+// .modal-iniciarSesion, .modal-formRegistro,.modal-bienvenido, .modal-validacion  {
+//   img {
+//     height: 44px;
+//   }
+// }
+// .modal-registrar, 
+// .modal-formRegistro,
+// .modal-iniciarSesion,
+// .modal-bienvenido {
+//   // background-color: $color-primario1;
+//   color: white;
+//   width: 600px;
+//   position: relative;
+// }
+.modal-bienvenido {
+  padding: 30px;
+  img {
+    margin-top: 0px;
+    height: 60px;
+  }
+  .icon-check {
+    font-size: 80px;
+  }
+  .rounded-circle {
+    margin-top: 70px;
+  }
+}
+.theme--light.v-navigation-drawer {
+  z-index: 9999;
+}
+.nav-principal {
+  
+  .icon-cerrar-sesion {
+    margin-right: 5px;
+  }
+  .theme--light.v-list {
+    background: $color-primario1;
+    height: 92px;
+    padding-top: 20px;
+  }
+  .v-list-item--active .v-list-item__content {
+    border-bottom: 2px solid white;
+  }
+  .theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    color: #ffffff !important;
+  }
+  .v-ripple__container {
+    display: none !important;
+  }
+  img {
+    height: 46px;
+  }
+}
+.btn-registro_usuario {
+  color: #ffffff !important;
+}
+.trama-gris {
+  background-color: #edeeee;
+  background-image: url('../img/trama-gris.svg');
+  background-repeat: repeat;
+}
+.icon-ok {
+  background-color: #039644;
+  border-radius: 100%;
+  padding: 30px;
+  font-size: 53px;
+}
+.icon-ok-ibk {
+  background-color: #039644;
+  border-radius: 100%;
+  padding: 8px;
+  font-size: 10px;
+  display: inline-block;
+}
+.icon-ok::before, .icon-ok-ibk::before {
+  color: #ffffff !important;
+}
+.row-infoUsuario {
+  width: 100%;
+}
+.row-infoUsuario, .row-infoUsuario-check {
+  position: relative;
+  label, p {
+    color: #525252 !important;
+  }
+}
+.s2-perfilusuario .cabecera-panel {
+  color: #000000 !important;
+  .v-expansion-panel-header__icon .v-icon {
+    font-size: 34px !important;
+    color: #aba9a9 !important;
+  }
+}
+.s2-perfilusuario {
+  .v-expansion-panel::before {
+    box-shadow: none;
+  }
+  .v-expansion-panel:not(:first-child)::after {
+    border-top: 0px;
+  }
+  .v-expansion-panel {
+    border: 1px solid #eaeaea;
+    .p-titulo-bold {
+      width: 70%;
+    }
+  }
+}
+
+// .st_certia .cabecera-panel {
+//   color: #9d5116 !important;
+//   .v-expansion-panel-header__icon .v-icon {
+//     font-size: 34px !important;
+//     color: #9c732b !important;
+//   }
+// }
+
+.btn-ahorano__perfil {
+  color: $color-primario1 !important;
+  font-weight: bold;
+}
+.v-progress-circular__underlay {
+  stroke: #f2ecae;
+}
+.item-simulador input, 
+.item-simulador select {
+  padding-left: 60px;
+  color: $color-primario1 !important;
+}
+.v-list--nav .v-list-item:not(:last-child):not(:only-child), .v-list--rounded .v-list-item:not(:last-child):not(:only-child) {
+  margin-bottom: 0px !important;
+}
+.error-form {
+  position: absolute;
+  bottom: 176px;
+}
+p.error-perfil-usuario {
+  position: absolute;
+  color: #da432c !important;
+  top: -16px;
+  font-size: 13px;
+}
+.success-msj {
+  color: #369908 !important;
+  font-size: 14px;
+}
+.error-msj {
+  color: #da432c !important;
+  font-size: 14px;
+}
+//perfil
+.v-text-field--outlined, .v-text-field--solo {
+  border-radius: 0px !important;
+}
+.theme--light.v-select .v-select__selection--disabled, .theme--light.v-input--is-disabled input{
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.input-profile-disabled:after,
+.s2-perfilusuario .row-infoUsuario .theme--light.v-input--is-disabled:after {
+  content: "✓";
+  background: #039644;
+  border-radius: 50%;
+  height: 22px;
+  width: 24px;
+  color: #fff;
+  padding: 0 4px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.icon-check1:after {
+  content: "✓";
+  background: #039644;
+  border-radius: 50%;
+  height: 22px;
+  width: 24px;
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 2px 6px !important;
+  position: absolute;
+  right: 60px;
+  top: 5px;
+}
+.icon-edit {
+  position: absolute !important;
+  right: 140px;
+  top: 40px;
+}
+.label-disabled,
+.label-disabled-check,
+
+.input-profile::placeholder,
+.input-profile_area::placeholder {
+  opacity: 0.5;
+}
+
+.btn-irPrincipal {
+  font-size: 16px;
+}
+.rounded-circle {
+  border-radius: 100%;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+.transform-flecha{
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+.check-grupo::after {
+  content: "✓";
+  background: #039644;
+  border-radius: 50%;
+  height: 22px;
+  width: 24px;
+  color: white;
+  padding: 3px 7px;
+  margin-top: 0px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.btn-reeviar {
+  height: 48px !important;
+  width: 49%;
+}
+
+.navbar-progress {
+  width: 100vw;
+  position: fixed;
+  transform: translate3d(0, 0, 0);
+  transition: 0.1s all ease-out;
+  padding:10px 15px;
+  z-index: 200;
+  color: #ffffff;
+  display: block;
+  top:66px;
+  
+}
+.st_sab .navbar-progress {
+  background-color: #a5a8b5;
+}
+.st_certia .navbar-progress{
+  background-color: #968d86;
+}
+
+.navbar-progress.hidden-navbar {
+  box-shadow: none;
+  transform: translate3d(0, -100%, 0);
+  display: none;
+}
+
+.btn-registrate {
+  .v-btn__content {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+}
+.btn-modal-medio {
+  width: 45% !important;
+}
+.menu-sujeto-obligado {
+  z-index: 9999 !important;
+}
+.dec-pi {
+  line-height: 40px;
+  cursor: pointer;
+}
+.content-form-registro {
+  padding: 30px 80px;
+}
+.modalPreguntasValidacion {
+  padding: 60px;
+  max-height: none !important;
+  position: relative;
+}
+.btn-sel__validacion {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+}
+.modal-validacion {
+  width: 850px !important;
+  position: relative;
+}
+.img-perfil-completado {
+  height: 100px;
+}
+.btn-url {
+  text-transform: inherit !important;
+  text-decoration: underline !important;
+  letter-spacing: 0 !important;
+  font-size: 16px !important;
+  padding: 0px !important;
+}
+.dialog-waiver {
+  overflow-y: visible !important;
+  .v-card {
+    position: relative !important;
+  }
+  .btn-cerrar {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+  }
+}
+.st_sab .dat-ob {
+  color: #0084f8;
+  font-weight: 600;
+}
+.st_certia .dat-ob {
+  color: #9c732b;
+  font-weight: 600;
+}
+.v-expansion-panel {
+  margin-bottom: 10px;
+}
+//pagina de inicio
+.header-initial {
+  padding: 50px 15%;
+  border-bottom: 4px solid #b2bad9;
+  height: 45vh;
+  color: #233e99;
+}
+.title-initial {
+  font-size: 24px;
+  margin-top: 15px;
+}
+.conocer-link {
+  text-decoration: none;
+  color: #0084f8!important;
+  font-weight: 600;
+  display: block;
+  font-size: 22px;
+  width: 200px;
+}
+.subsidiarias {
+  padding: 100px;
+  height: 100%;
+  margin: 0 15%;
+}
+.subsidiarias label {
+  font-size: 18px;
+}
+.inpag {
+  height: 100%;
+}
+.inpag>div {
+  padding: 20px;
+}
+.contain-logo {
+  padding: 30px;
+  height: 348px;
+  position: relative;
+}
+.contain-links {
+  display: block;
+  width: 170px;
+}
+.conocer-link {
+  background-color: #0084f8 !important;
+  color: #ffffff !important;
+}
+//fin página de inicio
+.v-progress-circular__info {
+  font-size: 34px;
+}
+
+// estilos pagina inicial
+
+.logo-inteligogroup {
+  position: absolute;
+  left: 36px;
+  bottom: 36px;
+}
+.vector-inteligo {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.footer {
+  // position: absolute;
+  bottom: 0px;
+  text-align: center;
+  margin-top: 30px;
+}
+.footer > div {
+  font-size: 14px;
+  line-height: 16px;
+  color: #87878c;
+}
+.footer a {
+  font-size: 13px;
+  line-height: 15px;
+  color: #5e5e61;
+  text-decoration: none;
+}
+.cnt-left-inicial {
+  display: none;
+  position: relative;
+}
+.btn-conocer {
+  width: 100%;
+  height: 48px !important;
+  background-color: #a5a8b5 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  box-shadow: none;
+  margin-top: 10px;
+}
+.w-100 {
+  width: 100%;
+}
+.c-100 {
+  width: 100%;
+  height: 100vh;
+}
+.img-inicial {
+  height: 100%;
+}
+.cnt-right-form {
+  width: 100%;
+  padding: 0px 8px;
+}
+.titulo_bienvenida_inicial {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #233e99;
+  margin-top: 30px;
+  margin-bottom: 6px !important;
+}
+.cnt-right-inicial {
+  position: relative;
+}
+.descripcion_bienvenida_inicial {
+  color: #233e99;
+}
+.content-img {
+  margin-top: 2%;
+  margin-bottom: 30px;
+}
+.content-img img {
+  height: 34px;
+}
+.inpag .theme--light.v-icon {
+  color: #2765f5;
+}
+.ipt-doc .select-doc {
+  width: 35%;
+  display: inline-block;
+}
+.ipt-doc .input-doc {
+  width: 63%;
+  display: inline-block;
+}
+.contenedor-certia .color-p-text {
+  color: #939598;
+}
+.contenedor-sab .color-p-text {
+  color: #233E99;
+}
+.v-autocomplete__content {
+  z-index: 999 !important;
+}
+.icon-edit {
+  height: 36px;
+  width: 36px;
+  margin-right: -52px;
+  margin-top: 0px;
+}
+.h100-p {
+  height: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100vh;
+}
+.input-profile_area .v-input__slot
+{
+  background: #f4f4f4 !important;
+  border-bottom: 1px solid #a5a8b5 !important;
+}
+@media (min-width: 768px) {
+  
+  .row-infoUsuario {
+    width: 349px;
+  }
+  .cnt-right-form {
+    width: 80%;
+    padding-left: 150px;
+  }
+  .s2-perfilusuario {
+    .v-expansion-panel {
+      .p-titulo-bold {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (min-width: 1025px) {
+  .icon-edit {
+    margin-right: 36px;
+    margin-top: -8px;
+  }
+  .navbar-progress {
+    padding:10px 100px;
+  }
+  .footer {
+    text-align: justify;
+  }
+  .cnt-right-form {
+    width: 70%;
+  }
+  .cnt-left-inicial {
+    display: block;
+  }
+  .btn-conocer {
+    width: 340px;
+  }
+  .navbar-progress {
+    top:90px;
+  }
+}
+@media (min-width: 1400px) {
+  .cnt-right-form {
+    width: 55%;
+    padding-left: 185px;
+    padding-top: 85px;
+  }
+  .content-img img {
+    height: auto;
+  }
+  .btn-conocer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .titulo_bienvenida_inicial {
+    margin-top: 60px;
+  }
+  .content-img {
+    margin-top: 5%;
+    margin-bottom: 30px;
+  }
+  .footer {
+    bottom: 30px;
+  }
+}

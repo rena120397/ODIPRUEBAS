@@ -1,0 +1,68 @@
+{
+  "LoaderGlobal": {
+    "description": "Auto imported from components/loaders/loader-global/loader-global.vue"
+  },
+  "AnexoPEP": {
+    "description": "Auto imported from components/perfil-usuario/components/AnexoPEP.vue"
+  },
+  "AnexoW8": {
+    "description": "Auto imported from components/perfil-usuario/components/AnexoW8.vue"
+  },
+  "AnexoW9": {
+    "description": "Auto imported from components/perfil-usuario/components/AnexoW9.vue"
+  },
+  "AvisosLegales": {
+    "description": "Auto imported from components/perfil-usuario/components/AvisosLegales.vue"
+  },
+  "ClienteIndependiente": {
+    "description": "Auto imported from components/perfil-usuario/components/ClienteIndependiente.vue"
+  },
+  "CuentasBancarias": {
+    "description": "Auto imported from components/perfil-usuario/components/CuentasBancarias.vue"
+  },
+  "DatosLaborales": {
+    "description": "Auto imported from components/perfil-usuario/components/DatosLaborales.vue"
+  },
+  "InformacionConyuge": {
+    "description": "Auto imported from components/perfil-usuario/components/InformacionConyuge.vue"
+  },
+  "InformacionFinanciera": {
+    "description": "Auto imported from components/perfil-usuario/components/InformacionFinanciera.vue"
+  },
+  "InformacionPersonal": {
+    "description": "Auto imported from components/perfil-usuario/components/InformacionPersonal.vue"
+  },
+  "InformacionUsuario": {
+    "description": "Auto imported from components/perfil-usuario/components/InformacionUsuario.vue"
+  },
+  "RequestFail": {
+    "description": "Auto imported from components/modals/request-fail.vue"
+  },
+  "PerfilUsuario": {
+    "description": "Auto imported from components/perfil-usuario/PerfilUsuario.vue"
+  },
+  "FooterUsuario": {
+    "description": "Auto imported from components/FooterUsuario.vue"
+  },
+  "IniciarSesion": {
+    "description": "Auto imported from components/IniciarSesion.vue"
+  },
+  "MensajeIBK": {
+    "description": "Auto imported from components/MensajeIBK.vue"
+  },
+  "NavUsuario": {
+    "description": "Auto imported from components/NavUsuario.vue"
+  },
+  "Perfilador": {
+    "description": "Auto imported from components/Perfilador.vue"
+  },
+  "RegistroUsuario": {
+    "description": "Auto imported from components/RegistroUsuario.vue"
+  },
+  "ValidacionIdentidad": {
+    "description": "Auto imported from components/ValidacionIdentidad.vue"
+  },
+  "ValidarCliente": {
+    "description": "Auto imported from components/ValidarCliente.vue"
+  }
+}
