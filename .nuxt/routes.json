@@ -3,66 +3,77 @@
     "name": "error",
     "path": "/error",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\error.vue",
-    "chunkName": "pages/error"
+    "chunkName": "pages/error",
+    "_name": "_11bf5943"
   },
   {
     "name": "generar-token",
     "path": "/generar-token",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\generar-token.vue",
-    "chunkName": "pages/generar-token"
+    "chunkName": "pages/generar-token",
+    "_name": "_779aa795"
   },
   {
     "name": "loading-update",
     "path": "/loading-update",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\loading-update.vue",
-    "chunkName": "pages/loading-update"
+    "chunkName": "pages/loading-update",
+    "_name": "_6d1bfacf"
   },
   {
     "name": "logout",
     "path": "/logout",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\logout.vue",
-    "chunkName": "pages/logout"
+    "chunkName": "pages/logout",
+    "_name": "_ace82242"
   },
   {
     "name": "mantenimiento",
     "path": "/mantenimiento",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\mantenimiento.vue",
-    "chunkName": "pages/mantenimiento"
+    "chunkName": "pages/mantenimiento",
+    "_name": "_799a3981"
   },
   {
     "name": "mensaje-ibk",
     "path": "/mensaje-ibk",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\mensaje-ibk.vue",
-    "chunkName": "pages/mensaje-ibk"
+    "chunkName": "pages/mensaje-ibk",
+    "_name": "_18bc9d02"
   },
   {
     "name": "perfil-usuario",
     "path": "/perfil-usuario",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\perfil-usuario.vue",
-    "chunkName": "pages/perfil-usuario"
+    "chunkName": "pages/perfil-usuario",
+    "_name": "_fb3511fc"
   },
   {
     "name": "perfil-usuario-update",
     "path": "/perfil-usuario-update",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\perfil-usuario-update.vue",
-    "chunkName": "pages/perfil-usuario-update"
+    "chunkName": "pages/perfil-usuario-update",
+    "_name": "_6e081b24"
   },
   {
     "name": "perfilador",
     "path": "/perfilador",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\perfilador.vue",
-    "chunkName": "pages/perfilador"
+    "chunkName": "pages/perfilador",
+    "_name": "_3bc3efe7"
   },
   {
     "name": "validar-identidad",
     "path": "/validar-identidad",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\validar-identidad.vue",
-    "chunkName": "pages/validar-identidad"
+    "chunkName": "pages/validar-identidad",
+    "_name": "_d53148ee"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\ENTELGY\\\\INTELIGOSAB\\\\BOLSA DE HORAS\\\\PROYECTO ODI RECHAZO\\\\FUENTES\\\\onboarding-digital\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_640d89e6"
   }
 ]

@@ -135,7 +135,8 @@
           </div>
           <div
             v-if="
-              porcentajeRegistroTotal < 100 &&
+              !btnguardarAvisosLegales &&
+              porcentajeRegistroTotal >= 90 &&
               esSujetoObligado === 'no'
             "
             class="row-infoUsuario"

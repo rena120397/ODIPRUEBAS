@@ -282,7 +282,22 @@ export default {
         ) {
           this.$router.push('/validar-identidad')
         } else if (newVal.equifax_information.isValidate) {
-          this.$router.push('/perfil-usuario')
+          if(!newVal.hasOwnProperty('legal_information')){
+            const usuarioCRM = this.getUsuarioCRM(newVal.identityDocument.type, newVal.identityDocument.number);
+            if(usuarioCRM.length != 0){
+              const dataConsult = {
+                "tipo_doc": newVal.identityDocument.type, 
+                "num_doc": newVal.identityDocument.number, 
+                "createdate": new Date().toISOString()
+              };
+              const encrypt = btoa(JSON.stringify(dataConsult));
+              const encode = encodeURIComponent(encrypt);
+              window.location.href = `/loading-update?q=${encode}`;
+            }
+          }
+          else{
+            this.$router.push('/perfil-usuario');
+          }
         }
       }
     },

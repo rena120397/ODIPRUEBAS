@@ -478,7 +478,7 @@ const getUsuarioInformacionBase = (informacionUsuarioObject: IUsuarioInformacion
 
 const getCanalCRM = (informacionUsuarioObject: IUsuarioInformacion): string => {
   let canalCRM = `${process.env.guidCanal}`;
- /* if (!informacionUsuarioObject.idContactCRM) {
+  if (!informacionUsuarioObject.idContactCRM) {
     return canalCRM;
   }
   else if (
@@ -491,7 +491,7 @@ const getCanalCRM = (informacionUsuarioObject: IUsuarioInformacion): string => {
     informacionUsuarioObject.personal_information.canal !== ''
   ) {
     canalCRM = informacionUsuarioObject.personal_information.canal
-  }*/
+  }
   return canalCRM;
 }
 

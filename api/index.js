@@ -55,7 +55,7 @@ app.post('/addLead', jsonParser, async function (req, res) {
 });
 
 const getLegalInformacion = async (id) => {
-  const queryGetLegal = `SELECT * FROM c WHERE c.onboardingId = '${id}' and c.stage = 'alta' and c.status = 'active'`;
+  const queryGetLegal = `SELECT * FROM c WHERE c.onboardingId = '${id}' and (c.stage = 'alta' or c.stage='actualización') and c.status = 'active'`;
 
   const { resources: legals } = await legalContainer
     .items
